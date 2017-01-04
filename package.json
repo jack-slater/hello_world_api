@@ -1,0 +1,23 @@
+{
+  "name": "api_",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slaterJJ/hello_world_api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slaterJJ/hello_world_api/issues"
+  },
+  "homepage": "https://github.com/slaterJJ/hello_world_api#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
