@@ -1,7 +1,7 @@
 var express = require('express')
 var app = express()
 
-app.use('/', function (req, res) {
+app.get('/', function (req, res) {
   res.status(200).send({status: 'ok'});
 });
 
