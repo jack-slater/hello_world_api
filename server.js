@@ -2,7 +2,7 @@ var express = require('express')
 var app = express()
 
 app.use('/', function (req, res) {
-  res.send('Hello Titrt')
+  res.status(200).send({status: 'ok'});
 });
 
 app.listen(process.env.PORT || 3000, function () {
